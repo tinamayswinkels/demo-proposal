@@ -1,0 +1,62 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Backgrounds & Container Elements */
+
+header {
+  background-color: yellow;
+  background-image: url('images/surfers.jpg');
+}
+
+footer {
+  background-color: grey;
+}
+
+header, footer, section {
+  padding: 5%;
+}
+
+
+/* Typography */
+
+line-height:
+color:
+font-size:
+font-weight:
+
+
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h2, h3 {
+  font-family: 'Playfair Display', serif;
+  padding-bottom: 1em;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+p {
+  padding-bottom: 1em;
+}
+
+hr {
+  width: 80px;
+  border: 2px solid red;
+  margin: 10px 0 20px 0; /* top right bottom left */
+}
+
+hr.center {
+  margin: auto;
+}
+
+ul {
+  list-style: inside;
+}
